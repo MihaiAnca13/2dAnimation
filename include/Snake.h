@@ -10,6 +10,12 @@
 class Snake : public AnimatedEntity {
 private:
 public:
+    int size = 15;
+    std::vector<float> bodySizes{15.f};
+    float linkDistance = 45.f;
+    float bodyThickness = 25.f;
+    bool drawLines = false;
+
     explicit Snake(sf::Vector2f position);
 
     void update(float deltaTime) override;

@@ -9,6 +9,7 @@
 #include <vector>
 #include <SFML/Graphics.hpp>
 #include "../include/MoveUtilities.h"
+#include "../include/DrawUtilities.h"
 
 class AnimatedEntity {
 public:

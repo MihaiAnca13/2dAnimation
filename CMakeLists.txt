@@ -14,6 +14,7 @@ add_executable(2dAnimation main.cpp
         src/Snake.cpp
         include/Snake.h
         include/MoveUtilities.h
+        include/DrawUtilities.h
 )
 
 find_package(SFML COMPONENTS system window graphics audio CONFIG REQUIRED)
